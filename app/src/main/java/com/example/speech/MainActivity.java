@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements main_recycler.Ite
         } else {
             databasehelper.openDatabase();
         }
-        // set up the RecyclerView2717:ff88
+
         RecyclerView recyclerView = findViewById(R.id.options);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new main_recycler(this, options);
